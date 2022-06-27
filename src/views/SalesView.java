@@ -31,8 +31,7 @@ public class SalesView {
 
         title = "Введите наименование товара: ";
         System.out.println(title);
-        name = validateName(scanner);
-        model.setName(name);
+        model.setName(validateName(scanner));
         // Здесь, реализуйте вывод сообщения о необходимсоти
         // ввода соответствующего значения, валидацью значения
         // через валидатор, установку валидного значения через модель.
@@ -40,16 +39,14 @@ public class SalesView {
 
         title = "Введите количество: ";
         System.out.println(title);
-        quantity = validateQuantityInput(scanner);
-        model.setQuantity(quantity);
+        model.setQuantity(validateQuantityInput(scanner));
         // Здесь, реализуйте вывод сообщения о необходимсоти
         // ввода соответствующего значения, валидацью значения
         // через валидатор, установку валидного значения через модель.
 
         title = "Введите цену: ";
         System.out.println(title);
-        price = validatePriceInput(scanner);
-        model.setPrice(price);
+        model.setPrice(validatePriceInput(scanner));
         // Здесь, реализуйте вывод сообщения о необходимсоти
         // ввода соответствующего значения, валидацью значения
         // через валидатор, установку валидного значения через модель.
