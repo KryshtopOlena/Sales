@@ -4,6 +4,6 @@ public interface Income {
 
     double calculateIncome();
 
-    double calculateIncome(double income, double tax);
+    double calculateIncome(double tax);
 
 }
